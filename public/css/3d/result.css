@@ -1,0 +1,9 @@
+
+.result{
+    display: flex;
+    flex-flow: column;
+    gap: var(--gapxs);
+    align-self: center;
+    color: var(--colorMain);
+    text-shadow: 0px 0px 2px var(--colorMain);
+}

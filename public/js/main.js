@@ -1,4 +1,9 @@
-import renderer3D from './class/Renderer3D.js';
+import HomeEarth from './class/HomeEarth.js';
+import NavEarth from './class/NavEarth.js';
 
-new renderer3D();
+const elFrame = document.querySelector('[data-js-3d]');
+const elNavFrame = document.querySelector('[data-js-3dnav]');
+if(elFrame) new HomeEarth(elFrame);
+if(elNavFrame) new NavEarth(elNavFrame);
+
 

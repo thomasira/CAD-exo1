@@ -18,9 +18,7 @@ Route::get('/', [OrbitController::class, 'home'])->name('home');
 Route::get('/about', [OrbitController::class, 'about'])->name('about');
 Route::get('/subscribe', [OrbitController::class, 'subscribe'])->name('subscribe');
 Route::get('/contact', [OrbitController::class, 'contact'])->name('contact');
+Route::post('/subscribe', [OrbitController::class, 'message']);
+Route::post('/contact', [OrbitController::class, 'contactMessage']);
 
-/* 
-Route::get('/about', [OrbitController::class, 'about'])->name('about');
-Route::get('/article', [OrbitController::class, 'post'])->name('article');
-Route::get('/contact', [OrbitController::class, 'contact'])->name('contact');
-Route::post('/contact', [OrbitController::class, 'message']); */
+

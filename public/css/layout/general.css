@@ -4,3 +4,41 @@ body{
     linear-gradient(336deg, rgb(0, 0, 3), rgba(1, 1, 11, 0.503) 70.71%);
     font-family: var(--typeText);
 }
+main{
+    padding: var(--gapxxl);
+}
+main>header{
+    padding: var(--gapxxl);
+
+    & h1{
+        font-size: var(--fontxl);
+        color: var(--colorLight);
+        text-shadow: 0px 0px 4px var(--colorLight);
+    }
+    & p{
+        color: var(--colorLight);
+        text-shadow: 0px 0px 4px var(--colorLight);
+        margin-left: var(--gapm);
+    }
+}
+
+form{
+    padding: var(--gapm);
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    gap: var(--gapxs);
+
+    & label{
+        font-size: var(--fontxs);
+    }
+    & input, select, textarea{
+        font-size: var(--fontText);
+        font-family: var(--typeText);
+        padding: var(--gapTHxxs);
+        background-color: var(--colorDark);
+        border: var(--borderStd);
+        color: var(--colorMain);
+    }
+
+}

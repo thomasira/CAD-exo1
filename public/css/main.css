@@ -4,4 +4,12 @@
 
 @import url(./layout/general.css);
 @import url(./layout/navigation.css);
+
 @import url(./3d/box-3d.css);
+@import url(./3d/main-home.css);
+@import url(./3d/result.css);
+
+@import url(./component/orange-banner.css);
+@import url(./component/btn.css);
+@import url(./component/text-area.css);
+

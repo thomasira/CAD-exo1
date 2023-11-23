@@ -6,3 +6,10 @@
     top: 0;
     z-index: -1;
 }
+.box-3d.small{
+    position: relative;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+}

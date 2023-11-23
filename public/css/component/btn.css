@@ -1,0 +1,16 @@
+
+.btn{
+    border: var(--borderStd);
+    background-color: var(--colorDark);
+    color: var(--colorComp);
+    border-color: var(--colorComp);
+    font-family: var(--typeText);
+    font-size: var(--fontText);
+    padding: var(--gapxs);
+
+    &:hover{
+        cursor: pointer;
+        color: var(--colorMain);
+        border-color: var(--colorMain);
+    }
+}

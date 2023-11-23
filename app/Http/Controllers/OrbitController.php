@@ -12,21 +12,16 @@ class OrbitController extends Controller
     public function about() {
         return view('about');
     }
-    
-
-  /*   public function about() {
-        return view('about');
+    public function subscribe() {
+        return view('subscribe');
     }
-
     public function contact() {
         return view('contact');
     }
-
-    public function post() {
-        return view('post');
-    }
-
     public function message(Request $request) {
+        return view('home', ["formData" => $request]);
+    }
+    public function contactmessage(Request $request) {
         return view('contact', ["formData" => $request]);
-    } */
+    }
 }

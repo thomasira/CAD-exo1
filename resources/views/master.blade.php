@@ -5,10 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Exo simple MVC controller using laravel" />
         <meta name="author" content="Thomas Aucoin-Lo" />
-        <title>@yield('title') | Orbit Coka</title>
+        <title>@yield('title') | Orbit</title>
         <link href="{{ asset('css/main.css') }}" rel="stylesheet" />
-
-        <!-- for three.js import -->
         <script type="importmap">
         {
             "imports": {
@@ -21,14 +19,14 @@
     </head>
     <body>
 
-
         <!-- Navigation-->
         <nav>
+            @yield('earthnav')
             <div>
                 <a href="{{ route('home') }}">Home</a>
                 <a href="{{ route('about') }}">About</a>
-                <a href="{{ route('home') }}">Subscribe</a>
-                <a href="{{ route('home') }}">Contact</a>
+                <a href="{{ route('subscribe') }}">Subscribe</a>
+                <a href="{{ route('contact') }}">Contact</a>
             </div>
         </nav>
 
@@ -39,6 +37,5 @@
         <footer>
         </footer>
     </body>
-
 
 </html>

@@ -3,6 +3,8 @@ nav{
     flex-flow: row;
     color: var(--colorMain);
     justify-content: end;
+    gap: var(--gapm);
+    align-items: center;
     padding: var(--gapm);
 
     &>div{

@@ -1,0 +1,43 @@
+
+.orange-banner{
+    border: var(--borderStd);
+    color: var(--colorMain);
+    width: 100%;
+
+    & header{
+        color: var(--colorDark);
+        padding: 0 var(--gaps);
+        background-color: var(--colorMain);
+        font-size: var(--fontxxl);
+    }
+    & ul{
+        display: flex;
+        flex-flow: row;
+        gap: var(--gaps);
+    }
+    & img{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    &>div{
+        padding: var(--gaps);
+
+        & div{
+
+            & a{
+                color: var(--colorComp);
+
+                &:hover{
+                    color: var(--colorLight);
+                }
+            }
+            &>*+*{
+                margin-top: var(--gapxs);
+            }
+        }
+        &>*+*{
+            margin-top: var(--gaps);
+        }
+    }
+}

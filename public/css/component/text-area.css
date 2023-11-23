@@ -1,0 +1,13 @@
+
+.text-area{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    gap: var(--gapxxs);
+
+    & textarea{
+        flex: 100px;
+        width: 100%;
+        resize: none;
+    }
+}
