@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;600&display=swap');
+
 :root{
 
     /* Palette de couleurs */
     --colorLight: #E1ECF3;
     --colorDark: #060609;
     --colorMain: #F98E2C;
+    --colorMainD: rgb(44, 21, 0);
     --colorComp: #5cc3e3;
     --colorNeutralL: #5c5b58;
 
@@ -14,8 +16,6 @@
     
     /* Police */
     --typeText: 'Jura', sans-serif;
-    --typeHead: 'Trispace', sans-serif;
-    --typeLyric: 'Assistant', monospace;
 
     /* Taille de polices */
     --fontxxs: clamp(12px, 1.5vw, 14px);

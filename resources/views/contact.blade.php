@@ -1,17 +1,17 @@
 @extends('master')
-@section('title', 'Contact')
-@section('earthnav')
-<div data-js-3dnav class="box-3d small">
 
-</div>
+@section('title', 'Contact')
+
+@section('earthnav')
+<div data-js-3dnav class="box-3d small"></div>
 @endsection
+
 @section('content')
 <main>
     <section class="orange-banner">
         <header>
             <h1>Contact</h1>
         </header>
-
     @isset ($formData)
         <div class="result">
             <h2>Thank you for reaching out</h2>

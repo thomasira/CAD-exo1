@@ -7,6 +7,8 @@
         <meta name="author" content="Thomas Aucoin-Lo" />
         <title>@yield('title') | Orbit</title>
         <link href="{{ asset('css/main.css') }}" rel="stylesheet" />
+
+        <!-- for three.js -->
         <script type="importmap">
         {
             "imports": {
@@ -35,6 +37,14 @@
 
         <!-- Footer-->
         <footer>
+            <div>
+                <p><strong>Exo 1 | Orbit</strong></p>
+                <p>Cadriciel Web | 2023-11-23</p>
+            </div>
+            <div>
+                <p><strong>Thomas Aucoin-Lo</strong></p>
+                <p>e2395387 | gr.22645</p>
+            </div>
         </footer>
     </body>
 

@@ -1,5 +1,7 @@
 @extends('master')
+
 @section('title', 'Home')
+
 @section('content')
 <main class="main-home">
     <header>
@@ -15,8 +17,6 @@
         <p><strong>Profile: </strong>{{ $formData->profile }}</p>
     </div>
 @endisset
-    <div data-js-3d class="box-3d">
-
-    </div>
+    <div data-js-3d class="box-3d"></div>
 </main>
 @endsection

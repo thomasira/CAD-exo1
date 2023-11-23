@@ -1,3 +1,4 @@
+
 body{
     background: linear-gradient(217deg, rgb(3, 1, 1), rgba(5, 1, 1, 0.597) 70.71%),
     linear-gradient(127deg, rgb(0, 6, 0), rgba(0, 6, 0, 0.504) 80%),
@@ -21,7 +22,6 @@ main>header{
         margin-left: var(--gapm);
     }
 }
-
 form{
     padding: var(--gapm);
     display: flex;
@@ -40,5 +40,11 @@ form{
         border: var(--borderStd);
         color: var(--colorMain);
     }
-
+}
+footer{
+    display: flex;
+    background-color: var(--colorMainD);
+    color: var(--colorLight);
+    justify-content: space-between;
+    padding: var(--gapTHxxs) var(--gapxs);
 }

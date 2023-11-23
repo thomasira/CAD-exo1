@@ -1,10 +1,11 @@
 @extends('master')
-@section('title', 'About')
-@section('earthnav')
-<div data-js-3dnav class="box-3d small">
 
-</div>
+@section('title', 'About')
+
+@section('earthnav')
+<div data-js-3dnav class="box-3d small"></div>
 @endsection
+
 @section('content')
 <main>
     <section class="orange-banner">
@@ -33,6 +34,4 @@
         </div>
     </section>
 </main>
-
-
 @endsection
