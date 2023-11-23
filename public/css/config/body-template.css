@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-flow: column;
+
+    &>main{
+        display: flex;
+        flex: 1;
+    }
+    min-height: 100vh;
+}

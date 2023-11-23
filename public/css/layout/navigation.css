@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    flex-flow: row;
+    color: var(--colorMain);
+    justify-content: end;
+    padding: var(--gapm);
+
+    &>div{
+        display: flex;
+        flex-flow: row;
+        padding: var(--gapm) 0;
+        gap: var(--gapm);
+        border-top: var(--borderStd);
+        border-bottom: var(--borderStd);
+
+        &>a{
+            font-size: var(--fontxs);
+            
+            &:hover{
+                color: var(--colorComp);
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\OrbitController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [OrbitController::class, 'home'])->name('home');
+Route::get('/about', [OrbitController::class, 'about'])->name('about');
+Route::get('/subscribe', [OrbitController::class, 'subscribe'])->name('subscribe');
+Route::get('/contact', [OrbitController::class, 'contact'])->name('contact');
+
+/* 
+Route::get('/about', [OrbitController::class, 'about'])->name('about');
+Route::get('/article', [OrbitController::class, 'post'])->name('article');
+Route::get('/contact', [OrbitController::class, 'contact'])->name('contact');
+Route::post('/contact', [OrbitController::class, 'message']); */
